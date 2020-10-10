@@ -6,7 +6,7 @@ int main() {
     cout << "輸入幾次: ";
     cin >> times;
 
-    for (int i = 0; times > i; i++){
+    for (int i = 0; times > i; i++) {
         cout << "第" << i+1 << "次" << "\n";
         cin >> number;
         sum += number;
